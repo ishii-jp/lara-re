@@ -20,7 +20,8 @@ function Example() {
 export default Example;
 
 if (document.getElementById('app')) {
-    const Index = ReactDOM.createRoot(document.getElementById("app"));
+    const app = document.getElementById("app") as Element;
+    const Index = ReactDOM.createRoot(app);
 
     Index.render(
         <React.StrictMode>
