@@ -19,10 +19,6 @@ function Example() {
 
 export default Example;
 
-// if (document.getElementById('app')) {
-//     ReactDOM.render(<Example />, document.getElementById('app'));
-// }
-
 if (document.getElementById('app')) {
     const Index = ReactDOM.createRoot(document.getElementById("app"));
 
