@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Routes from '../routes'
 
 function Example() {
     return (
@@ -25,7 +26,7 @@ if (document.getElementById('app')) {
 
     Index.render(
         <React.StrictMode>
-            <Example/>
+            <Routes />
         </React.StrictMode>
     )
 }
