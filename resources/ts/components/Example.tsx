@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Routes from '../routes'
 
 function Example() {
     return (
@@ -19,14 +17,3 @@ function Example() {
 }
 
 export default Example;
-
-if (document.getElementById('app')) {
-    const app = document.getElementById("app") as Element;
-    const Index = ReactDOM.createRoot(app);
-
-    Index.render(
-        <React.StrictMode>
-            <Routes />
-        </React.StrictMode>
-    )
-}
