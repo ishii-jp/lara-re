@@ -1,22 +1,22 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Example from '../components/Example';
-import Home from '../components/Home';
-import NotFound from '../components/NotFound';
+import ExampleView from '../views/ExampleView';
+import HomeView from '../views/HomeView';
+import NotFoundView from '../views/NotFoundView';
 
 function Routes() {
     const router = createBrowserRouter([
         {
             path: '/',
-            element: <Home />
+            element: <HomeView />
         },
         {
             path: '/example',
-            element: <Example />
+            element: <ExampleView />
         },
         {
             path: '*',
-            element: <NotFound />
+            element: <NotFoundView />
         },
     ]);
 

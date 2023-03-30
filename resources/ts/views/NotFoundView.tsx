@@ -1,7 +1,7 @@
 import React from 'react';
 
-function NotFound() {
+function NotFoundView() {
     return <div>Page Not Found</div>
 }
 
-export default NotFound;
+export default NotFoundView;

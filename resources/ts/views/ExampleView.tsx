@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Example() {
+function ExampleView() {
     return (
         <div className="container">
             <div className="row justify-content-center">
@@ -16,4 +16,4 @@ function Example() {
     );
 }
 
-export default Example;
+export default ExampleView;
