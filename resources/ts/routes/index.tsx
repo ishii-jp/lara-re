@@ -11,6 +11,10 @@ function Routes() {
             element: <HomeView />
         },
         {
+            path: '/home',
+            element: <HomeView />
+        },
+        {
             path: '/example',
             element: <ExampleView />
         },
