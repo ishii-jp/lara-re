@@ -10,6 +10,8 @@ function Routes() {
         const init = async() => {
             const user = await getUser();
             console.log('user', user);
+            // TODO 取得したユーザー情報をstateにセットし、後続処理でログイン画面へリダイレクトするか否かを決めるようにする。
+            //      将来的にはReduxなどで毎回APIを叩かなくていいよ様にする必要がある。
         }
         void init();
     }, []);
